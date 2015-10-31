@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fordlogo" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Email Id"
+        android:gravity="center_horizontal"
+        android:drawableStart="@drawable/emaildark"
+        android:drawableLeft="@drawable/emaildark">
+    </EditText>
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        >
+
+
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rgGender"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:text="Male"
+                android:id="@+id/rbMale"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:text="Female"
+
+                android:id="@+id/rbFemale"
+                android:layout_marginBottom="10dp"
+                />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <com.vijay.userlogin.customview.DateDisplayPicker
+        android:id="@+id/etDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center_vertical|center_horizontal"
+        style="@android:style/Widget.Holo.Spinner"
+        android:hint="DOB (MM/DD/YYYY)"
+        />
+
+
+
+    <Button
+        android:id="@+id/bLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        android:background="@drawable/button_corners"
+        android:gravity="center_vertical|center_horizontal"
+        android:drawableStart="@drawable/signupblack"
+        android:drawableLeft="@drawable/exit132"
+
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/fordlogo" />
+
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Email Id" />
+
+     <EditText
+         android:id="@+id/etEmail"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="10dp"
+         android:layout_height="wrap_content" />-->
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center_horizontal"
+        android:hint="Email Id"
+        android:drawableStart="@drawable/email"
+        android:drawableLeft="@drawable/email">
+    </EditText>
+
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Password" />
+
+
+     <EditText
+         android:id="@+id/etPassword"
+         android:layout_width="match_parent"
+         android:inputType="textPassword"
+         android:layout_marginBottom="10dp"
+         android:layout_height="wrap_content" />-->
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:drawableStart="@drawable/password32"
+        android:drawableLeft="@drawable/password32">
+    </EditText>
+
+
+    <!-- <Button
+         android:id="@+id/bLogin"
+         android:text="Login"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         android:padding="16dp"
+         android:textSize="24sp"
+         android:drawableLeft="@drawable/loginblue"
+         android:layout_marginTop="32dp" />-->
+
+    <!-- <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Login"
+         android:id="@+id/bLogin"
+         android:layout_marginTop="57dp"
+         android:src="@drawable/loginblue"
+         android:background="@drawable/roundcorner"
+         android:padding="1dp"
+         android:layout_alignParentTop="true"
+         android:layout_toLeftOf="@+id/imageButton2"
+         android:layout_marginRight="62dp" />-->
+
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signin"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        android:background="@drawable/button_corners"
+        android:gravity="center_vertical|center_horizontal"
+        android:drawableStart="@drawable/loginblue"
+        android:drawableLeft="@drawable/loginblue"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/bSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10sp"
+        android:padding="5dp"
+        android:background="@drawable/button_corners"
+        android:gravity="center_vertical|center_horizontal"
+        android:drawableStart="@drawable/pencil"
+        android:drawableLeft="@drawable/pencil"
+
+        />
+
+
+
+
+    <!--<TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Register Here"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+
+
+        android:textColor="#ff525aff" />-->
+
+</LinearLayout>
